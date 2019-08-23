@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",    //es6转成es5
+            {
+                "useBuiltIns": "usage",  //自动import babel-polyfill
+                "modules":false          //仍然使用es6 模块机制    有几种类型"amd" | "umd" | "systemjs" | "commonjs" | "cjs" | "auto" | false，默认为"auto"。
+            }
+        ],
+        "@babel/preset-react"
+        
+    ]
+}
+// {
+//     "presets": [
+//         "@babel/preset-env",
+//         "@babel/preset-react"
+//     ]
+// }
